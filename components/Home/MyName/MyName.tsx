@@ -29,7 +29,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-300 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
-        Anaflous Abdellatif.
+        SN.
       </motion.h1>
       <motion.h2
         initial={{ y: 10, opacity: 0 }}
@@ -43,22 +43,6 @@ export default function MyName(props: { finishedLoading: boolean }) {
         I turn ideas into reality.
       </motion.h2>
 
-      {/* <motion.h3
-        initial={{ y: 10, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{
-          opacity: { delay: props.finishedLoading ? 0 : 10.7, duration: props.finishedLoading ? 0 : 0.2 },
-          y: { delay: props.finishedLoading ? 0 : 10.7, duration: props.finishedLoading ? 0 : 0.2 },
-        }}
-        className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
-      >
-        I&apos;m a <span className="text-AAsecondary">software engineer</span>, with strong problem-solving skills. I
-        specialize in building great digital experiences, <br className="2xl:block hidden" />
-        both in <span className="text-AAsecondary">front-end</span> and{" "}
-        <span className="text-AAsecondary">back-end</span> development. I work with different technologies, including
-        <span className="text-AAsecondary"> web3</span> and regular <br className="2xl:block hidden" /> web
-        applications. I enjoy working on projects that bring new ideas and high-quality results.
-      </motion.h3> */}
       <motion.h3
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}

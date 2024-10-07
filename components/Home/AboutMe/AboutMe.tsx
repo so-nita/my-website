@@ -29,13 +29,11 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header text-justify">
               <span className="text-gray-400 ">
-                Hello! My name is Abdellatif, and I&apos;m a passionate{" "}
-                <span className="text-AAsecondary">software engineer</span> with strong problem-solving skills. My
-                journey in computer science started at 11 years old when I explored Ethical Hacking using BackTrack OS,
-                which started my interest in programming. Over the years, I continued to teach myself coding, which led
-                me to pursue an <span className="text-AAsecondary">engineering degree</span> and afterward a second
-                degree in <span className="text-AAsecondary">Master of Computer Science</span>, making me a professional
-                in this field.
+                Hello! My name is SN, and I&apos;m a passionate about{" "}
+                <span className="text-AAsecondary">Technology</span> and dedicated to creating innovative solutions with strong problem-solving skills. 
+                I aim to make a positive impact through software development. 
+                <span className="text-AAsecondary">engineering degree</span> in 
+                <span className="text-AAsecondary">Bachelor of Computer Science</span>, making me a professional in this field.
               </span>
             </div>
             <div className="font-Header text-justify">
@@ -53,8 +51,8 @@ export default function AboutMe(props) {
 
             <div className="font-Header tracking-wide text-justify ">
               <span className="text-gray-400  ">
-                I&apos;m always interested to keep learning and improve my skills to make a positive impact in the tech
-                world. Here are some of the technologies I&apos;ve been working with :{" "}
+                I&apos;m always interested to keep learning and improve my skills and I aim to make a positive impact through software development. 
+                Here are some of the technologies I&apos;ve been working with :{" "}
               </span>
             </div>
             <div className="font-Header tracking-wide flex flex-row space-x-16  justify-center lg:justify-start">
@@ -88,8 +86,8 @@ export default function AboutMe(props) {
           <div className="group relative lg:w-96 lg:h-96 md:w-72 md:h-72 md:block hidden ">
             <div
               className="group-hover:translate-x-3 group-hover:translate-y-3
-               duration-300 absolute w-5/6 h-5/6 border-2 border-AAsecondary translate-x-5 
-               translate-y-5 rounded"
+                duration-300 absolute w-5/6 h-5/6 border-2 border-AAsecondary translate-x-5 
+                translate-y-5 rounded"
             ></div>
 
             <div className="absolute w-5/6 h-5/6  rounded overflow-hidden">
