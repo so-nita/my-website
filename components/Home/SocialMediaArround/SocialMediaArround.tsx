@@ -36,7 +36,7 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             {/* Linkedin icon */}
             <IconClickableWithAnimation Icon={LinkedinIcon} href={""} />
             {/* Instagram Icon */}
-            {/* <IconClickableWithAnimation Icon={InstagramIcon} href={"https://www.instagram.com/xredme/"} /> */}
+            {/* <IconClickableWithAnimation Icon={InstagramIcon} href={""} /> */}
             {/* Youtube Icon */}
             <IconClickableWithAnimation Icon={YoutubeIcon} href={""} />
           </div>
@@ -64,7 +64,7 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
           >
             <a href="" target={"_blank"} rel="noreferrer">
               <span className=" font-Header tracking-wider text-gray-400 hover:text-AAsecondary hover:cursor-pointer">
-                SN<span className="text-AAsecondary">@</span>anaflous<span className="text-AAsecondary">.</span>com
+                sonita.borin2<span className="text-AAsecondary">@</span>gmail<span className="text-AAsecondary">.</span>com
               </span>
             </a>
           </motion.div>

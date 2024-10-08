@@ -12,7 +12,7 @@ export default function SomethingIveBuilt() {
     <div
       id="SomethingIveBuiltSection"
       className=" flex flex-col xl:space-y-28 space-y-12 bg-AAprimary w-full  
-     2xl:px-72 lg:px-24 md:px-16 sm:px-16 py-32 px-4"
+      2xl:px-72 lg:px-24 md:px-16 sm:px-16 py-32 px-4"
     >
       {/* // ? Title   */}
       <div data-aos="fade-up" className=" flex flex-row  items-center md:px-0">
@@ -37,7 +37,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href={"https://www.vision.io"} target="_blank" rel="noreferrer">
+              <a href={""} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
                     transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
@@ -64,7 +64,7 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Vision.io</span>
-                <a href="https://www.vision.io" target="_blank" rel="noopener noreferrer">
+                <a href="" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     ENS names Marketplace
                   </span>
@@ -85,13 +85,13 @@ export default function SomethingIveBuilt() {
               >
                 <span className="pr-4 z-10">ENS domains</span>
                 <span className="pr-4 z-10">ENS names</span>
-                <span className="pr-4 z-10">web3</span>
+                {/* <span className="pr-4 z-10">web3</span>
                 <span className="pr-4 z-10">NFT</span>
-                <span className="pr-4 z-10">ERC72</span>
+                <span className="pr-4 z-10">ERC72</span> */}
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 {/* <GithubIcon link="" /> */}
-                <a href="https://www.vision.io" target={"_blank"} rel="noreferrer">
+                <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
@@ -108,19 +108,10 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              {/* <Link href={"/typing"}>
+              <a href="" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
-                  className="absolute w-full h-full rounded bg-AAsecondary 
-           transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
-                ></div>
-              </Link> */}
-
-              <a href="https://ubiquitous-bublanina-da84ec.netlify.app/" target={"_blank"} rel="noreferrer">
-                <div
-                  // onClick={}
-                  className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-30 hover:opacity-0 hover:cursor-pointer duration-300"
+                  className="absolute w-full h-full rounded bg-AAprimary transition-opacity opacity-30 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
@@ -163,7 +154,7 @@ export default function SomethingIveBuilt() {
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-end"
+                text-sm font-Text2 md:justify-end"
               >
                 <span className="pr-4 z-10">Token</span>
                 <span className="pr-4 z-10">ERC20</span>
@@ -367,8 +358,7 @@ export default function SomethingIveBuilt() {
                   it appears to websites. Such as your
                   <span className="text-AAsecondary"> location</span>,{" "}
                   <span className="text-AAsecondary">IP Address</span>,{" "}
-                  <span className="text-AAsecondary">{","} software, Hardware</span> and some additional information
-                  with the help of cookies.
+                  <span className="text-AAsecondary">{","} software</span> 
                 </p>
               </div>
               <ul
@@ -401,7 +391,7 @@ export default function SomethingIveBuilt() {
                 <div
                   // onClick={}
                   className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                  transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 

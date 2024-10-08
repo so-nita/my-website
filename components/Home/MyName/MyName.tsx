@@ -19,6 +19,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
       >
         Hi, my name is
       </motion.span>
+
       <motion.h1
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -28,8 +29,9 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-300 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
-        SN.
+        BORIN SONITA.
       </motion.h1>
+
       <motion.h2
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -39,7 +41,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
-        I turn ideas into reality.
+        Innovations are born.
       </motion.h2>
 
       <motion.h3
@@ -49,23 +51,21 @@ export default function MyName(props: { finishedLoading: boolean }) {
           opacity: { delay: props.finishedLoading ? 0 : 10.7, duration: props.finishedLoading ? 0 : 0.2 },
           y: { delay: props.finishedLoading ? 0 : 10.7, duration: props.finishedLoading ? 0 : 0.2 },
         }}
-        className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider "
+        className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        I&apos;m a <span className="text-AAsecondary">software engineer</span> with strong{" "}
-        <span className="text-AAsecondary">problem-solving skills</span>, specializing in creating exceptional digital
-        experiences.
-        <br className="3xl:block hidden" /> With expertise in both <span className="text-AAsecondary">front-end</span>{" "}
-        and <span className="text-AAsecondary">back-end development</span>
-        , I work with a diverse range of technologies, including{" "}
-        <span className="text-AAsecondary"> web3</span>
-        <br className="3xl:block hidden" /> and traditional web applications. I enjoy solving challenging projects that
-        drive <span className="text-AAsecondary"> innovation</span> and deliver high-quality results.
-        <br className="3xl:block hidden" /> My experience in{" "}
-        <span className="text-AAsecondary">leading development teams</span> has honed my ability to collaborate
-        effectively and translate ideas into functional solutions.
-        <br className="3xl:block hidden" /> I am excited to contribute to dynamic projects that push the boundaries of
-        technology.
+        Hello! My name is Sonita, and I am a passionate software engineer and problem solver, dedicated to creating impactful codes. 
+        My journey in computer science began in <span className="text-AAsecondary">2021</span> when I started my degree and delved into 
+        <span className="text-AAsecondary">Web Design</span>. Little did I know that programming skills would become essential in pursuing this interest, marking the start of my programming journey. 
+        I officially began my career in <span className="text-AAsecondary">2022</span>, working across different industries to apply and enhance my skills.
+        <br className="3xl:block hidden" />
+        <span className="text-gray-400">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since pursuing my computer science degree, my career has taken me through diverse industries, allowing me to refine my expertise in 
+          <span className="text-AAsecondary">Desktop</span> and <span className="text-AAsecondary">Web Development</span>. My passion for web and continuous learning drives me to make a positive impact and advance technology.
+        </span>
+        <br className="3xl:block hidden" /> 
+        I am excited to contribute to dynamic projects that push the boundaries of technology.
       </motion.h3>
+
       <motion.div
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -77,7 +77,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
       >
         <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
           <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary">
-            Check out my resume!
+            My resume here!
           </button>
         </a>
       </motion.div>

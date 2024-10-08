@@ -53,8 +53,6 @@ const Header = (props: { finishedLoading: boolean,sectionsRef }) => {
     }
   }, [context.sharedState.portfolio.NavBar, context.sharedState.portfolio.NavBar.scrolling]);
 
-  
-
   useEffect(() => {
     setTimeout(() => {
       setShowElement(true);

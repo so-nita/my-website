@@ -2,10 +2,12 @@ import React from "react";
 import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
+  
   const technologies = [
-    ["Nextjs/React", "TypeScript/JavaScript", "Tailwind CSS", "Ether.js/web3.js", "AWS/Google Cloud"],
-    ["Node.js", "Java", "Solidity", "Mongodb", "GraphQL/RESTful APIs"],
+    ["HTML", "CSS", "Boostrap", "JavaScript (ES6+)", "Tailwind CSS", "ReactJS"],
+    ["C#", "ASP.Net Core", "ASP.Net Framework", "SQL Server", "MySQL"],
   ];
+
   return (
     <div id="aboutSection" data-aos="fade-up" className="snap-start flex flex-col  items-center py-20 bg-AAprimary">
       {/* // ? 0.1 About Me */}
@@ -29,7 +31,7 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header text-justify">
               <span className="text-gray-400 ">
-                Hello! My name is SN, and I&apos;m a passionate about{" "}
+                Hello! My name is BORIN SONITA, and I&apos;m a passionate about{" "}
                 <span className="text-AAsecondary">Technology</span> and dedicated to creating innovative solutions with strong problem-solving skills. 
                 I aim to make a positive impact through software development. 
                 <span className="text-AAsecondary">engineering degree</span> in 

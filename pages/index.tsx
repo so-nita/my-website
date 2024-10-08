@@ -4,7 +4,6 @@ import MyName from "../components/Home/MyName/MyName";
 import { useContext, useEffect, useState, useRef } from "react";
 import SocialMediaArround from "../components/Home/SocialMediaArround/SocialMediaArround";
 import AboutMe from "../components/Home/AboutMe/AboutMe";
-import ThisCantBeReached from "../components/Home/ThisSiteCantBeReached/ThisCantBeReached";
 import WhereIHaveWorked from "../components/Home/WhereIHaveWorked/WhereIHaveWorked";
 import SomethingIveBuilt from "../components/Home/SomethingIveBuilt/SomethingIveBuilt";
 import GetInTouch from "../components/Home/GetInTouch/GetInTouch";
@@ -40,7 +39,7 @@ export default function Home() {
       setShowElement(false);
       context.sharedState.finishedLoading = true;
       context.setSharedState(context.sharedState);
-    }, 10400);
+    }, 4000);
   }, [context]);
 
   useEffect(() => {
@@ -49,19 +48,19 @@ export default function Home() {
 
   console.log("website is rendering...");
   const meta = {
-    //title: "  - Software Engineer",
-    //description: `I've been working on Software development for 5 years straight. Get in touch with me to know more.`,
+    title: "Web Developer",
+    description: `I've been working on Software development for 2 years.`,
     //image: "/titofCercle.png",
-    type: "website",
+    type: "Personal Portfolio",
   };
   const isProd = process.env.NODE_ENV === "production";
 
   return (
     <>
       <Head>
-        {/* <title>{meta.title}</title>
+        <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
-        <meta content={meta.description} name="description" /> */}
+        <meta content={meta.description} name="description" />
         {/* <meta property="og:url" content={`https://anaflous.com`} />
         <link rel="canonical" href={`https://anaflous.com`} /> */}
         <meta property="og:type" content={meta.type} />
