@@ -14,7 +14,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Head from "next/head";
 import ScreenSizeDetector from "../components/CustomComponents/ScreenSizeDetector";
-import Maintenance from "../components/Home/Maintenance/Maintenance";
 
 // Removed: Maintenance and ThisCantBeReached components, as they seem unused in the final JSX.
 
@@ -50,9 +49,9 @@ export default function Home() {
 
   console.log("website is rendering...");
   const meta = {
-    title: "Abdellatif Anaflous - Software Engineer",
-    description: `I've been working on Software development for 5 years straight. Get in touch with me to know more.`,
-    image: "/titofCercle.png",
+    //title: "  - Software Engineer",
+    //description: `I've been working on Software development for 5 years straight. Get in touch with me to know more.`,
+    //image: "/titofCercle.png",
     type: "website",
   };
   const isProd = process.env.NODE_ENV === "production";
@@ -60,21 +59,21 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{meta.title}</title>
+        {/* <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
-        <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://anaflous.com`} />
-        <link rel="canonical" href={`https://anaflous.com`} />
+        <meta content={meta.description} name="description" /> */}
+        {/* <meta property="og:url" content={`https://anaflous.com`} />
+        <link rel="canonical" href={`https://anaflous.com`} /> */}
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Manu Arora" />
-        <meta property="og:description" content={meta.description} />
+        {/* <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@titofabdo" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
-        <meta name="twitter:image" content={meta.image} />
+        <meta name="twitter:image" content={meta.image} /> */}
       </Head>
 
       {/* Removed condition for checking if user is blacklisted. It wasn't used further in the code */}
@@ -89,7 +88,7 @@ export default function Home() {
             <WhereIHaveWorked />
             <SomethingIveBuilt />
             <GetInTouch />
-            <Footer githubUrl={"https://github.com/hktitof/my-website"} hideSocialsInDesktop={true} />
+            <Footer githubUrl={"https://github.com/so-nita/my-website.git"} hideSocialsInDesktop={true} />
           </>
         )}
         {!isProd && <ScreenSizeDetector />}

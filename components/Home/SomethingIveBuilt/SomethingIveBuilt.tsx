@@ -40,7 +40,7 @@ export default function SomethingIveBuilt() {
               <a href={"https://www.vision.io"} target="_blank" rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
-           transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
+                    transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
               <Img src={"/ensvision.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
@@ -81,8 +81,7 @@ export default function SomethingIveBuilt() {
                 </p>
               </div>
               <ul
-                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-start"
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2 md:justify-start"
               >
                 <span className="pr-4 z-10">ENS domains</span>
                 <span className="pr-4 z-10">ENS names</span>
@@ -91,7 +90,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">ERC72</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                {/* <GithubIcon link="https://github.com/hktitof/Ypredict" /> */}
+                {/* <GithubIcon link="" /> */}
                 <a href="https://www.vision.io" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
@@ -174,8 +173,8 @@ export default function SomethingIveBuilt() {
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <div className="z-10 flex fle-row space-x-5 ">
-                  <GithubIcon link="https://github.com/hktitof/Ypredict" />
-                  <a href="https://ubiquitous-bublanina-da84ec.netlify.app/" target={"_blank"} rel="noreferrer">
+                  <GithubIcon link="" />
+                  <a href="" target={"_blank"} rel="noreferrer">
                     <ExternalLink url={""} router={router} />
                   </a>
                 </div>
@@ -245,7 +244,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Blockchain</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                {/* <GithubIcon link="https://github.com/hktitof/Ypredict" /> */}
+                {/* <GithubIcon link="" /> */}
                 <a href="https://www.fevertokens.io/" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
@@ -314,7 +313,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">TypeScript</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/hktitof/Typing" />
+                <GithubIcon link="" />
                 <ExternalLink url={"typing"} router={router} />
               </div>
             </div>
@@ -383,7 +382,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Location</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <GithubIcon link="https://github.com/hktitof/DataPuller" />
+                <GithubIcon link="" />
                 <ExternalLink url={"/userdatapuller"} router={router} />
               </div>
             </div>
@@ -449,8 +448,7 @@ export default function SomethingIveBuilt() {
                 </p>
               </div>
               <ul
-                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-end"
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2 md:justify-end"
               >
                 <span className="pr-4 z-10">Appointment</span>
                 <span className="pr-4 z-10">Management</span>
@@ -458,8 +456,8 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">Booking</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/hktitof/haircut" />
-                <a href="https://www.haircut.ma" target={"_blank"} rel="noreferrer">
+                <GithubIcon link="" />
+                <a href="" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
@@ -475,7 +473,7 @@ export default function SomethingIveBuilt() {
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
-              <a href="https://github.com/hktitof/CallCenter" target={"_blank"} rel="noreferrer">
+              <a href="" target={"_blank"} rel="noreferrer">
                 <div
                   className="absolute w-full h-full rounded bg-AAprimary 
            transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
@@ -503,7 +501,7 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1  z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https://github.com/hktitof/CallCenter" target={"_blank"} rel="noreferrer">
+                <a href="" target={"_blank"} rel="noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
                     Call Center Management System
                   </span>
@@ -518,8 +516,7 @@ export default function SomethingIveBuilt() {
                 </p>
               </div>
               <ul
-                className="flex flex-wrap w-full text-gray-300 md:text-gray-400
-               text-sm font-Text2 md:justify-start"
+                className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2 md:justify-start"
               >
                 <span className="pr-4 z-10">JavaFX</span>
                 <span className="pr-4 z-10">Java Concurrency</span>
@@ -527,7 +524,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">MySQL</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 sm:pt-0 pt-2">
-                <GithubIcon link="https://github.com/hktitof/CallCenter" />
+                <GithubIcon link="" />
               </div>
             </div>
           </div>
