@@ -1,14 +1,9 @@
 import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
-import TrouveTavoie from "./Descriptions/TrouveTavoie";
-import FeverTokens from "./Descriptions/FeverTokens";
-import IdealFresh from "./Descriptions/IdealFresh";
-import AdvancedAgroManagement from "./Descriptions/AdvancedAgroManagement";
-import Fantasia from "./Descriptions/Fantasia";
-import SuperBerry from "./Descriptions/SuperBerry";
 import EnsVision from "./Descriptions/EnsVision";
-import YpredictAI from "./Descriptions/YpredictAI";
+import ATech from "./Descriptions/ATech";
+import TurboTech from "./Descriptions/TurboTech";
 
 
 export default function WhereIHaveWorked() {
@@ -18,10 +13,15 @@ export default function WhereIHaveWorked() {
   // ? INFORMATIONAL the default value of barRef's class should be at the beginning translate-y-[0px]
   const GetDescription = () => {
     switch (DescriptionJob) {
-      case "Vision":
-        return <EnsVision />;
-      case "YpredictAI":
-        return <YpredictAI />;
+      case "ATech":
+        return <ATech />;
+      case "TurboTech":
+        return <TurboTech />;
+
+      // case "Vision":
+      //   return <EnsVision />;
+      // case "YpredictAI":
+      //   return <YpredictAI />;
       // case "TrouveTavoie":
       //   return <TrouveTavoie />;
       // case "FeverTokens":
@@ -36,7 +36,8 @@ export default function WhereIHaveWorked() {
       //   return <SuperBerry />;
     }
   };
-  const [DescriptionJob, setDescriptionJob] = React.useState("Vision");
+  //const [DescriptionJob, setDescriptionJob] = React.useState("Vision");
+  const [DescriptionJob, setDescriptionJob] = React.useState("ATech");
   
   return (
     <div data-aos="fade-up" className="flex flex-col items-center justify-center py-24 space-y-12 bg-AAprimary">
@@ -128,19 +129,20 @@ const CompaniesBar = props => {
         <div className="flex flex-row md:flex-col ">
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
-            CompanyName="Vision"
+            //CompanyName="Vision"
+            CompanyName="ATech"
             BarPosition={-10}
             BarAvobePosition={1}
-            DescriptionJob="Vision"
+            DescriptionJob="ATech"
             CompanyNameBackgroundColorGreen={[true, false]}
             setDescriptionJob={props.setDescriptionJob}
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={1}
-            CompanyName="Ypredict.io"
+            CompanyName="TurboTech"
             BarPosition={40}
             BarAvobePosition={129}
-            DescriptionJob="YpredictAI"
+            DescriptionJob="TurboTech"
             CompanyNameBackgroundColorGreen={[false, true]}
             setDescriptionJob={props.setDescriptionJob}
           />

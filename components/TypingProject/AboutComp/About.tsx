@@ -6,7 +6,7 @@ export default function About() {
                     flex md:flex-row flex-col md:space-x-12 items-center space-y-4 pt-24 
                     opacity-70   hover:opacity-100 duration-500
                     
-                     "
+                    "
       // opacity-10   hover:opacity-100 duration-500
     >
       <div className="flex-none  w-32 lg:w-44 flex justify-center items-center">
