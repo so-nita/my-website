@@ -30,7 +30,25 @@ module.exports = {
         ResumeButtonHover: "#153040",
         MobileNavBarColor: "#112340",
         StartupBackground: "#020c1b",
+        // Add Prfile card colors
+        AALightColor: "#5ddcff"
       },
+      // Add Prfile card colors
+      boxShadow: {
+        'custom-glow': '0 0 30px #5ddcff',
+      },
+      keyframes: {
+        rotateBorder: {
+          '0%': { borderColor: '#5ddcff' },
+          '33%': { borderColor: '#3c67e3' },
+          '66%': { borderColor: '#4e00c2' },
+          '100%': { borderColor: '#5ddcff' },
+        },
+      },
+      animation: {
+        rotateBorder: 'rotateBorder 2s linear infinite',
+      },
+      
       screens: {
         sm: "640px",
         // => @media (min-width: 640px) { ... }
@@ -50,6 +68,12 @@ module.exports = {
         "4xl": "2560px",
         "5xl": "3840px",
       },
+      
+      
+      // colors:{
+      //   cardBg: '#191c29',
+      //   textHover: 'rgb(88 199 250 / 100%)',
+      // }
     },
   },
   plugins: [require("tailwind-scrollbar"), require("tailwind-scrollbar-hide")],

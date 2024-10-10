@@ -30,13 +30,14 @@ const MobileMenu = props => {
             onClick={() => closeMenu()}
             className="flex flex-col text-center space-y-2"
           >
-            <span className="text-AAsecondary text-xs font-mono">01.</span>
-            <span
-              className="text-white font-Text2 text-sm sm:text-base
-             hover:text-AAsecondary hover:cursor-pointer duration-300"
-            >
-              About
+            <span className="text-AAsecondary text-sm font-mono">01. {" "}
+              <span
+                className="text-white font-Text2 text-sm sm:text-base hover:text-AAsecondary hover:cursor-pointer duration-300"
+                >
+                  About
+              </span>
             </span>
+            
           </Link>
           <Link
             to="WhereIhaveWorkedSection"
@@ -47,13 +48,15 @@ const MobileMenu = props => {
             onClick={() => closeMenu()}
             className="flex flex-col text-center space-y-2"
           >
-            <span className="text-AAsecondary text-xs font-mono hover:cursor-pointer">02.</span>
-            <span
-              className="text-white font-Text2 text-sm sm:text-base
-              hover:text-AAsecondary hover:cursor-pointer duration-300"
-            >
-              Experience
+            <span className="text-AAsecondary text-sm font-mono hover:cursor-pointer">02. {" "}
+              <span
+                className="text-white font-Text2 text-sm sm:text-base
+                hover:text-AAsecondary hover:cursor-pointer duration-300"
+              >
+                Experience
+              </span>
             </span>
+            
           </Link>
           <Link
             to="SomethingIveBuiltSection"
@@ -64,13 +67,15 @@ const MobileMenu = props => {
             onClick={() => closeMenu()}
             className="flex flex-col text-center space-y-2"
           >
-            <span className="text-AAsecondary text-xs font-mono">03.</span>
-            <span
-              className="text-white font-Text2 text-sm sm:text-base
-              hover:text-AAsecondary hover:cursor-pointer duration-300"
-            >
-              Work
+            <span className="text-AAsecondary text-sm font-mono">03. {" "}
+              <span
+                className="text-white font-Text2 text-sm sm:text-base
+                hover:text-AAsecondary hover:cursor-pointer duration-300"
+              >
+                Work
+              </span>
             </span>
+            
           </Link>
           <Link
             to="GetInTouchSection"
@@ -81,20 +86,26 @@ const MobileMenu = props => {
             onClick={() => closeMenu()}
             className="flex flex-col text-center space-y-2"
           >
-            <span className="text-AAsecondary text-xs font-mono">04.</span>
-            <span
-              className="text-white font-Text2 text-sm sm:text-base
-             hover:text-AAsecondary hover:cursor-pointer duration-300"
-            >
-              Contact
+            <span className="text-AAsecondary text-sm font-mono">04. {" "}
+              <span
+                className="text-white font-Text2 text-sm sm:text-base hover:text-AAsecondary hover:cursor-pointer duration-300"
+                >
+                  Contact
+              </span>
             </span>
+            
           </Link>
           <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
-            <button
+            {/* <button
               className="rounded border font-Text2  border-AAsecondary
-           hover:bg-ResumeButtonHover py-2 sm:py-4 px-5 sm:px-10 text-xs text-AAsecondary"
+              hover:bg-ResumeButtonHover py-2 sm:py-4 px-5 sm:px-10 text-xs text-AAsecondary"
             >
               Resume
+            </button> */}
+            <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-gray-900 rounded group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 ">
+              <span className="font-mono relative py-2 sm:py-3 px-5 sm:px-10 text-sm ease-in infinite duration-75 bg-white dark:bg-gray-900 rounded group-hover:bg-opacity-0">
+                Resume
+              </span>
             </button>
           </a>
         </div>

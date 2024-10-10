@@ -20,7 +20,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           delay: props.finishedLoading ? 0 : 9.4,
         }}
         className=" text-AAsecondary"
-       
+        
       >
         <ReactScrollLink to="aboutSection" spy={true} smooth={true} offset={-100} duration={200}>
           &gt; 01. <span className="text-white hover:cursor-pointer hover:text-AAsecondary duration-300">About</span>
@@ -41,7 +41,7 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           delay: props.finishedLoading ? 0 : 9.7,
         }}
         className="text-AAsecondary"
-       
+        
       >
         <ReactScrollLink to="WhereIhaveWorkedSection" spy={true} smooth={true} offset={-300} duration={200}>
           &gt; 02.{" "}
@@ -106,9 +106,13 @@ export default function DesktopMenu(props: { finishedLoading: boolean }) {
           delay: props.finishedLoading ? 0 : 10.2,
         }}
         // onClick={()=>{router.push("/resume.pdf")}}
-        className="text-AAsecondary border border-spacing-2 py-2 px-3 rounded-sm border-AAsecondary hover:bg-ResumeButtonHover"
+        //className="text-AAsecondary border border-spacing-2 py-2 px-3 rounded-sm border-AAsecondary hover:bg-ResumeButtonHover"
+        className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-gray-900 rounded group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 "
       >
-        Resume
+        {/* Resume */}
+          <span className="font-mono text-sm relative py-2 px-4 ease-in infinite duration-75 bg-white dark:bg-gray-900 rounded group-hover:bg-opacity-0">
+            Resume
+          </span>
       </motion.button>
       </a>
       

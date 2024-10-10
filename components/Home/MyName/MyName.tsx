@@ -76,8 +76,13 @@ export default function MyName(props: { finishedLoading: boolean }) {
         className="mt-12"
       >
         <a href={"/resume.pdf"} target={"_blank"} rel="noreferrer">
-          <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary">
+          {/* <button className="bg-AAprimary text-AAsecondary border rounded px-4 sm:px-8 py-3 sm:py-4 border-AAsecondary">
             My resume here!
+          </button> */}
+          <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-gray-900 rounded group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 ">
+            <span className="font-mono text-sm relative px-4 sm:px-8 py-3 sm:py-4 ease-in infinite duration-75 bg-white dark:bg-gray-900 rounded group-hover:bg-opacity-0">
+              My resume here!
+            </span>
           </button>
         </a>
       </motion.div>

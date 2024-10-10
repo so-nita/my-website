@@ -1,6 +1,7 @@
 import React from "react";
 import ArrowIcon from "../../Icons/ArrowIcon";
-export default function GetInTouch() {
+
+export default function BeInTouch() {
   return (
     <div
       id="GetInTouchSection"
@@ -18,13 +19,16 @@ export default function GetInTouch() {
       
       <span className="text-gray-200 text-3xl sm:text-4xl font-bold tracking-wider opacity-85">Be in Touch</span>
       <p className="flex font-Header tracking-wider text-gray-400 text-center px-6 sm:px-16 md:px-0 md:w-[600px]">
-      Although I&apos;m always excited about new opportunities,  and my inbox. Wis wide open! If you want to drop a message or just wanna connect,
+      Although I&apos;m always excited about new opportunities, and my inbox is widely open! If you want to drop a message or just wanna connect,
       I&apos;ll make it a point to get back to you!
       </p>
+
       <div className="pt-4">
-        <a href="" target={"_blank"} rel="noreferrer">
-          <button className="font-mono text-sm text-AAsecondary border-AAsecondary px-8 py-4 border-[1.5px] rounded ">
-            Say Hello
+        <a href="mailto:sonita.borin2@gmail.com" target="_blank" rel="noreferrer">
+          <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-gray-900 rounded group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 ">
+            <span className="font-mono text-sm relative px-8 py-3 transition-all infinite duration-75 bg-white dark:bg-gray-900 rounded group-hover:bg-opacity-0">
+              Say Hello
+            </span>
           </button>
         </a>
       </div>

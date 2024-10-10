@@ -1,6 +1,8 @@
 import React from "react";
 import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
+import styles from "./AboutMe.module.css";
+
 export default function AboutMe(props) {
   
   const technologies = [
@@ -84,34 +86,42 @@ export default function AboutMe(props) {
               </div>
             </div>
           </div>
+          
           {/* // ? Image in Desktop and Tablet */}
-          <div className="group relative lg:w-96 lg:h-96 md:w-72 md:h-72 md:block hidden ">
+          <div className="group relative lg:w-96 lg:h-96 md:w-72 md:h-72 md:block hidden " >
             <div
               className="group-hover:translate-x-3 group-hover:translate-y-3
-                duration-300 absolute w-5/6 h-5/6 border-2 border-AAsecondary translate-x-5 
+                duration-300 absolute w-5/6 h-5/6 border-2 border-AALightColor translate-x-5  group-hover:shadow-custom-glow group-hover:animate-rotateBorder
                 translate-y-5 rounded"
-            ></div>
+            >
+              <Img
+                src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVmoCtzb8EEtP9rnV73B5Kx8ypNVHUy-xUzhCjpJPktS91_qwaveGkU_i8WFQCnxTu1M&usqp=CAU"}
+                className={"object-contain rounded-lg "} alt="My Image Not Found" 
+              />
+            </div>
 
-            <div className="absolute w-5/6 h-5/6  rounded overflow-hidden">
+            <div className="absolute w-5/6 h-5/6 rounded overflow-hidden">
               <div className="absolute w-full h-full group-hover:opacity-0 bg-AAsecondary opacity-10 duration-300 rounded overflow-hidden"></div>
-              <Img
-                src={"/img/Portfolio-portrait-3.jpg"}
+              {/* <Img
+                src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVmoCtzb8EEtP9rnV73B5Kx8ypNVHUy-xUzhCjpJPktS91_qwaveGkU_i8WFQCnxTu1M&usqp=CAU"}
                 className={"object-contain rounded-lg"}
                 alt="My Image Not Found"
-              />
+              /> */}
             </div>
+            {/* <div className="profile-card"></div> */}
           </div>
+
           {/* // ?Image in Mobile */}
-          <div className=" relative w-full h-48 md:hidden  flex justify-center items-center">
-            <div className="absolute w-48 h-full  rounded  translate-x-5 translate-y-5 border-2 border-AAsecondary"></div>
-            <div className="absolute w-48 h-full rounded overflow-hidden">
+          <div className=" relative w-full h-56 md:hidden  flex justify-center items-center">
+            <div className="absolute w-56 h-full  rounded  translate-x-5 translate-y-5 border-2 border-AALightColor"></div>
+            <div className="absolute w-56 h-full rounded overflow-hidden">
               <Img
-                src={"/img/Portfolio-portrait-3.jpg"}
+                src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdVmoCtzb8EEtP9rnV73B5Kx8ypNVHUy-xUzhCjpJPktS91_qwaveGkU_i8WFQCnxTu1M&usqp=CAU"}
                 className={"object-contain rounded-lg"}
                 alt="My Image Not Found"
               />
             </div>
-            <div className="absolute w-48 h-full  bg-AAsecondary opacity-10 md:opacity-60  rounded overflow-hidden"></div>
+            <div className="absolute w-56 h-full  bg-AAsecondary opacity-10 md:opacity-60  rounded overflow-hidden"></div>
           </div>
         </div>
       </div>
