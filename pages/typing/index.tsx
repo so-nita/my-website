@@ -139,11 +139,6 @@ export default function Home() {
     }
   }, [context.sharedState]);
 
-  // console.log("rounded Count : ", roundCounter);
-  // console.log("page re-rendered...");
-  // console.log("data : ", myText);
-  // console.log("Active Word : ", activeWordWithIndex);
-  // console.log("CursorPosition : ", myText[2].CursorPosition);
 
   return (
     <div
