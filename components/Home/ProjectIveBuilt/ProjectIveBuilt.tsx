@@ -6,7 +6,7 @@ import Img from "../../smallComp/image/Img";
 import GithubIcon from "../../Icons/GithubIconForSomethingIveBuild";
 import ExternalLink from "../../Icons/ExternalLink";
 
-export default function SomethingIveBuilt() {
+export default function ProjectIveBuilt() {
   const router = useRouter();
   return (
     <div
@@ -21,7 +21,7 @@ export default function SomethingIveBuilt() {
           <span className="text-AAsecondary font-sans text-sm  sm:text-xl"> 03.</span>
           <span className=" font-bold tracking-wider text-gray-200 text-lg md:text-2xl w-44 md:w-56 opacity-85">
             {" "}
-            Some Things I&apos;ve Built
+            Projects I&apos;ve Built
           </span>
         </div>
         <div className="bg-gray-400 h-[0.2px] w-full xl:w-1/3 md:w-1/2"></div>
@@ -45,6 +45,7 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
               <Img src={"/ensvision.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              {/* <Img src={"/amaya-coffee-website.png"} alt={"Project Screen shot"} className={`w-full h-full`} /> */}
             </div>
           </div>
 
@@ -55,7 +56,8 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/ensvision.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                {/* <Img src={"/ensvision.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} /> */}
+                <Img src={"/amaya-coffee-website.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -81,11 +83,10 @@ export default function SomethingIveBuilt() {
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2 md:justify-start"
               >
-                <span className="pr-4 z-10">TT -12</span>
-                <span className="pr-4 z-10">TT -22</span>
-                <span className="pr-4 z-10">TT-333</span>
-                {/* <span className="pr-4 z-10">NFT</span>
-                <span className="pr-4 z-10">ERC72</span> */}
+                <span className="pr-4 z-10"> Boostrap </span>
+                <span className="pr-4 z-10"> JavaScript </span>
+                <span className="pr-4 z-10"> APS.Net Framework</span>
+                <span className="pr-4 z-10"> MS Sql</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 {/* <GithubIcon link="" /> */}
@@ -113,7 +114,8 @@ export default function SomethingIveBuilt() {
                 ></div>
               </a>
 
-              <Img src={"/ensvision.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+              {/* <Img src={"/ensvision.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} /> */}
+              <Img src={"/amaya-coffee-website.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
             </div>
           </div>
 
@@ -124,7 +126,7 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/ensvision.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                {/* <Img src={"/amaya-coffee-website.png"} alt={"Project Screen shot"} className={`w-full h-full`} /> */}
               </div>
             </div>
 
@@ -134,9 +136,9 @@ export default function SomethingIveBuilt() {
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
                 <span className="text-AAsecondary text-base">Recent Project</span>
-                <a href="https://ubiquitous-bublanina-da84ec.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <a href="" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    YPredict - v1
+                    Ecommerce Website
                   </span>
                 </a>
               </div>
@@ -145,20 +147,20 @@ export default function SomethingIveBuilt() {
                   I had the opportunity to lead the development of a token project, which aimed to create a
                   decentralized ecosystem for peer-to-peer transactions. Overseeing the planning and development of the
                   project, including the <span className="text-AAsecondary"> design</span> and implementation of the{" "}
-                  <span className="text-AAsecondary"> smart contract</span> and{" "}
+                  <span className="text-AAsecondary"> </span> and{" "}
                   <span className="text-AAsecondary"> blockchain technology</span>. Here i share with you{" "}
-                  <span className="text-AAsecondary"> YPredict - v1 </span> for the private sale.
+                  <span className="text-AAsecondary"> Dinex 4 </span> for sale.
                 </p>
               </div>
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                 text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">Token</span>
-                <span className="pr-4 z-10">ERC20</span>
-                <span className="pr-4 z-10">Nextjs</span>
-                <span className="pr-4 z-10">Smart contract</span>
-                <span className="pr-4 z-10">Blockchain</span>
+                <span className="pr-4 z-10"> Boostrap </span>
+                <span className="pr-4 z-10"> JavaScript </span>
+                {/* <span className="pr-4 z-10"> </span> */}
+                <span className="pr-4 z-10"> APS.Net Framework</span>
+                <span className="pr-4 z-10"> MS Sql</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <div className="z-10 flex fle-row space-x-5 ">
