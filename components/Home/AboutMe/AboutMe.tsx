@@ -40,18 +40,6 @@ export default function AboutMe(props) {
                 <span className="text-AAsecondary">Bachelor of Computer Science</span>, making me a professional in this field.
               </span>
             </div>
-            {/* <div className="font-Header text-justify">
-              <span className="text-gray-400 ">
-                Throughout my education and career, from my self-learning days to earning my degrees, I&apos;ve gained
-                experience in various industries. I have had the opportunity to work with companies and startups,
-                including <span className="text-AAsecondary">Vision</span>,{" "}
-                <span className="text-AAsecondary">FeverTokens</span>,{" "}
-                <span className="text-AAsecondary">TrouveTavoi</span>, and many others, including transportation and
-                international companies. At FeverTokens, I led the development of an innovative NFT marketplace, and at
-                Vision, which is the <span className="text-AAsecondary">second-largest market</span> in the world for{" "}
-                <span className="text-AAsecondary">ENS</span>, I contributed to key projects.
-              </span>
-            </div> */}
 
             <div className="font-Header tracking-wide text-justify ">
               <span className="text-gray-400  ">
