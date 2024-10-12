@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 import ArrowIcon from "../../Icons/ArrowIcon";
-import EnsVision from "./Descriptions/EnsVision";
 import ATech from "./Descriptions/ATech";
 import TurboTech from "./Descriptions/TurboTech";
 
@@ -17,23 +16,6 @@ export default function WhereIHaveWorked() {
         return <ATech />;
       case "TurboTech":
         return <TurboTech />;
-
-      // case "Vision":
-      //   return <EnsVision />;
-      // case "YpredictAI":
-      //   return <YpredictAI />;
-      // case "TrouveTavoie":
-      //   return <TrouveTavoie />;
-      // case "FeverTokens":
-      //   return <FeverTokens />;
-      // case "IdealFresh":
-      //   return <IdealFresh />;
-      // case "Advanced Agro Management":
-      //   return <AdvancedAgroManagement />;
-      // case "Fantasia":
-      //   return <Fantasia />;
-      // case "SuperBerry":
-      //   return <SuperBerry />;
     }
   };
   //const [DescriptionJob, setDescriptionJob] = React.useState("Vision");

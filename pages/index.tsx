@@ -6,7 +6,7 @@ import SocialMediaArround from "../components/Home/SocialMediaArround/SocialMedi
 import AboutMe from "../components/Home/AboutMe/AboutMe";
 import WhereIHaveWorked from "../components/Home/WhereIHaveWorked/WhereIHaveWorked";
 import SomethingIveBuilt from "../components/Home/ProjectIveBuilt/ProjectIveBuilt";
-import GetInTouch from "../components/Home/GetInTouch/GetInTouch";
+import GetInTouch from "../components/Home/BeInTouch/BeInTouch";
 import Footer from "../components/Footer/Footer";
 import AppContext from "../components/AppContextFolder/AppContext";
 import Aos from "aos";

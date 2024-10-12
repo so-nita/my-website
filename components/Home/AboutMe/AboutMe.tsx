@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../../../components/smallComp/image/Img";
+import Img from "../../Icons/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 import styles from "./AboutMe.module.css";
 
