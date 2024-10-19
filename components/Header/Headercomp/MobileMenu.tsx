@@ -30,7 +30,7 @@ const MobileMenu = props => {
             onClick={() => closeMenu()}
             className="flex flex-col text-center space-y-2"
           >
-            <span className="text-AAsecondary text-sm font-mono">01. {" "}
+            <span className="text-AAsecondary text-sm font-mono"> 1. {" "}
               <span
                 className="text-white font-Text2 text-sm sm:text-base hover:text-AAsecondary hover:cursor-pointer duration-300"
                 >
@@ -48,7 +48,7 @@ const MobileMenu = props => {
             onClick={() => closeMenu()}
             className="flex flex-col text-center space-y-2"
           >
-            <span className="text-AAsecondary text-sm font-mono hover:cursor-pointer">02. {" "}
+            <span className="text-AAsecondary text-sm font-mono hover:cursor-pointer"> 2. {" "}
               <span
                 className="text-white font-Text2 text-sm sm:text-base
                 hover:text-AAsecondary hover:cursor-pointer duration-300"
@@ -67,7 +67,7 @@ const MobileMenu = props => {
             onClick={() => closeMenu()}
             className="flex flex-col text-center space-y-2"
           >
-            <span className="text-AAsecondary text-sm font-mono">03. {" "}
+            <span className="text-AAsecondary text-sm font-mono"> 3. {" "}
               <span
                 className="text-white font-Text2 text-sm sm:text-base
                 hover:text-AAsecondary hover:cursor-pointer duration-300"
@@ -77,8 +77,9 @@ const MobileMenu = props => {
             </span>
             
           </Link>
+          
           <Link
-            to="GetInTouchSection"
+            to="SoftSkillSection"
             spy={true}
             smooth={true}
             offset={100}
@@ -86,7 +87,27 @@ const MobileMenu = props => {
             onClick={() => closeMenu()}
             className="flex flex-col text-center space-y-2"
           >
-            <span className="text-AAsecondary text-sm font-mono">04. {" "}
+            <span className="text-AAsecondary text-sm font-mono">4. {" "}
+              <span
+                className="text-white font-Text2 text-sm sm:text-base hover:text-AAsecondary hover:cursor-pointer duration-300"
+                >
+                  Soft Skills
+              </span>
+            </span>
+            
+          </Link>
+
+          <Link
+            // to="GetInTouchSection"
+            to="BeInTouchSection"
+            spy={true}
+            smooth={true}
+            offset={100}
+            duration={200}
+            onClick={() => closeMenu()}
+            className="flex flex-col text-center space-y-2"
+          >
+            <span className="text-AAsecondary text-sm font-mono">5. {" "}
               <span
                 className="text-white font-Text2 text-sm sm:text-base hover:text-AAsecondary hover:cursor-pointer duration-300"
                 >

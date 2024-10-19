@@ -4,7 +4,8 @@ import ArrowIcon from "../../Icons/ArrowIcon";
 export default function BeInTouch() {
   return (
     <div
-      id="GetInTouchSection"
+      // id="GetInTouchSection"
+      id="BeInTouchSection"
       data-aos="fade-up"
       className="flex flex-col space-y-4 w-full h-96 items-center bg-AAprimary"
     >
@@ -12,7 +13,7 @@ export default function BeInTouch() {
       <div className="flex flex-row items-center ">
         <ArrowIcon className="flex-none h-5 md:h-6 w-5 md:w-5 text-AAsecondary" />
         <div className="flex flex-row space-x-2 items-center">
-          <span className="text-AAsecondary font-sans text-sm  sm:text-base"> 04.</span>
+          <span className="text-AAsecondary font-sans text-sm  sm:text-base"> 5.</span>
           <span className=" font-sans text-AAsecondary text-base">Wait! What&apos;s Next?</span>
         </div>
       </div>

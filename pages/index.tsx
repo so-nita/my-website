@@ -14,6 +14,7 @@ import "aos/dist/aos.css";
 import Head from "next/head";
 import ScreenSizeDetector from "../components/CustomComponents/ScreenSizeDetector";
 import ThisCantBeReached from "../components/Home/ThisSiteCantBeReached/ThisCantBeReached";
+import SoftSkill from "../components/Home/SoftSkill/SoftSkill";
 
 // Removed: Maintenance and ThisCantBeReached components, as they seem unused in the final JSX.
 
@@ -40,7 +41,8 @@ export default function Home() {
 
     setTimeout(() => {
       setShowElement(true);
-    }, 1000);
+    // }, 1000);
+    }, 100);
 
     // setTimeout(() => {
     //   setShowThisCantBeReached(false);
@@ -101,6 +103,7 @@ export default function Home() {
             <AboutMe ref={aboutRef} />
             <WhereIHaveWorked />
             <SomethingIveBuilt />
+            <SoftSkill />
             <GetInTouch />
             <Footer githubUrl={"https://github.com/so-nita"} hideSocialsInDesktop={true} />
           </>
