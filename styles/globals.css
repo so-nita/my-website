@@ -42,3 +42,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.text-gradient {
+  background: linear-gradient(to right, #6ee7b7, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
