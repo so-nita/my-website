@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
+// import Img from "../../Icons/Img";
+
 export default function Logo(props: { finishedLoading: boolean }) {
   return (
     <>
@@ -13,11 +15,11 @@ export default function Logo(props: { finishedLoading: boolean }) {
         }}
         className=" relative h-12 w-10 "
       >
-        <motion.span
+        {/* <motion.span
           initial={{ x: 1 }}
           className="absolute h-full w-full flex justify-center items-center text-lg font-Header text-AAsecondary"
         >
-          {/* 🌀So🌀 */} So
+          So
         </motion.span>
 
         <motion.div animate={{ rotate: -30, y: 5 }} className="h-1 w-6 rounded bg-AAsecondary"></motion.div>
@@ -25,8 +27,9 @@ export default function Logo(props: { finishedLoading: boolean }) {
         <motion.div animate={{ rotate: 30, y: 31 }} className="h-1 w-6 rounded bg-AAsecondary"></motion.div>
         <motion.div animate={{ rotate: -30, y: 27, x: 19 }} className="h-1 w-6 rounded bg-AAsecondary"></motion.div>
         <motion.div animate={{ rotate: 30, x: 19, y: -10 }} className="h-1 w-6 rounded bg-AAsecondary"></motion.div>
-        <motion.div animate={{ rotate: 90, x: 28, y: 2 }} className="h-1 w-6 rounded bg-AAsecondary"></motion.div>
-
+        <motion.div animate={{ rotate: 90, x: 28, y: 2 }} className="h-1 w-6 rounded bg-AAsecondary"></motion.div> */}
+        {/* <Img src="../../logo-sonita" alt="logo" className="h-12 w-10" /> */}
+        <img src="https://www.canva.com/design/DAGT_Eh8ChA/VvbxYWLOlj73owZ1SjbcjQ/view?utm_content=DAGT_Eh8ChA&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel" alt="logo" className="h-12 w-10" />
       </motion.div>
     </>
   );

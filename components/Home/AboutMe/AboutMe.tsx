@@ -31,6 +31,7 @@ export default function AboutMe(props) {
 
         <div className="w-full flex flex-col md:flex-row space-y-8 md:space-y-0  md:space-x-8 sm:space-x-2 ">
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
+            
             <div className="font-Header text-justify">
               <span className="text-gray-400 ">
                 Hello! My name is BORIN SONITA, and I&apos;m a passionate about{" "}
@@ -47,6 +48,7 @@ export default function AboutMe(props) {
                 Here are some of the technologies I&apos;ve been working with :{" "}
               </span>
             </div>
+
             <div className="font-Header tracking-wide flex flex-row space-x-16  justify-center lg:justify-start">
               <div className="flex flex-row space-x-2 items-center">
                 <div className="flex flex-col space-y-4 sm:text-base text-sm">

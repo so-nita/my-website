@@ -44,7 +44,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
         Innovations are born.
       </motion.h2>
 
-      <motion.h3
+      {/* <motion.h3
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
@@ -64,7 +64,27 @@ export default function MyName(props: { finishedLoading: boolean }) {
         </span>
         <br className="3xl:block hidden" /> 
         I am excited to contribute to dynamic projects that push the boundaries of technology.
+      </motion.h3> */}
+      <motion.h3
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{
+          opacity: { delay: props.finishedLoading ? 0 : 10.7, duration: props.finishedLoading ? 0 : 0.2 },
+          y: { delay: props.finishedLoading ? 0 : 10.7, duration: props.finishedLoading ? 0 : 0.2 },
+        }}
+        className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
+      >
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Hello, I&apos;m Sonita, an aspiring software developer. Although I attend college at <span className="text-AAsecondary">Royal University of Phnom Penh  </span>since <span className="text-AAsecondary"> 2021</span>. My passion for {" "}
+        <span className="text-AAsecondary">technology</span> and <span className="text-AAsecondary">coding</span> has driven me to take a proactive approach in learning, which I pursued through {" "}
+        <span className="text-AAsecondary">Udemy courses</span>. I started with foundational courses in <span className="text-AAsecondary">HTML</span>, <span className="text-AAsecondary">CSS</span>, <span className="text-AAsecondary">Bootstrap</span>, and <span className="text-AAsecondary">JavaScript</span>, and later advanced my skills with <span className="text-AAsecondary">PHP</span> and <span className="text-AAsecondary">C#</span>. {" "}
+        <br className="3xl:block hidden" />
+        With over a year of experience working in development since <span className="text-AAsecondary"> 2022</span>, I have gained hands-on expertise in creating dynamic web applications through both <span className="text-AAsecondary">Front-End</span> and <span className="text-AAsecondary">Back-End</span> development. I am now looking to further enhance my skills and take on new challenges in a role that will allow me to contribute meaningfully to a team.
+        <br className="3xl:block hidden" /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        I&apos;m particularly excited about the opportunity to join a dynamic team that values continuous learning and <span className="text-AAsecondary">innovation</span>.
       </motion.h3>
+
+
 
       <motion.div
         initial={{ y: 10, opacity: 0 }}
