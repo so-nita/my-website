@@ -5,13 +5,26 @@ export default function ATech() {
     const tasks = [
         {
             text: "Implemented website design and enhanced interactivity.",
-            keywords: ["HTML", "CSS", "Boostrap", "ASP.Net Framework", "C#", "SQL Server"],
+            keywords: ["HTML", "CSS", "Bootstrap", "C#", "ASP.Net Framework", "SQL Server"],
         },
         {
-            text: "Implemented website design and enhanced interactivity.",
-            keywords: ["website design"],
+            text: "Developed backend services and APIs for seamless integration with the front end.",
+            keywords: ["C#", "ASP.Net Core", "REST API", "Entity Framework", "SQL Server", "LINQ"],
         },
+        {
+            text: "Optimized database queries to improve application performance.",
+            keywords: ["SQL Server", "Database Optimization", "Stored Procedures"],
+        },
+        {
+            text: "Collaborated with cross-functional teams to deliver a responsive and user-friendly web application.",
+            keywords: ["Team Collaboration", "Responsive Design", "JavaScript", "HTML", "CSS"],
+        },
+        {
+            text: "Resolved critical bugs and implemented improvements based on user feedback.",
+            keywords: ["Bug Fixing", "Code Optimization", "Debugging", "Git", "GitHub", "C#"],
+        }
     ];
+    
 
     return (
         <>

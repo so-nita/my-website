@@ -44,7 +44,7 @@ export default function ProjectIveBuilt() {
                     transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img src={"/ensvision.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/amaya-coffee-website.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
               {/* <Img src={"/amaya-coffee-website.png"} alt={"Project Screen shot"} className={`w-full h-full`} /> */}
             </div>
           </div>
@@ -126,7 +126,7 @@ export default function ProjectIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                {/* <Img src={"/amaya-coffee-website.png"} alt={"Project Screen shot"} className={`w-full h-full`} /> */}
+                <Img src={"/amaya-coffee-website.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
@@ -138,29 +138,31 @@ export default function ProjectIveBuilt() {
                 <span className="text-AAsecondary text-base">Recent Project</span>
                 <a href="" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Ecommerce Website
+                    Ecommerce Website - Amaya Coffee
                   </span>
                 </a>
               </div>
+
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left ">
-                  I had the opportunity to lead the development of a token project, which aimed to create a
-                  decentralized ecosystem for peer-to-peer transactions. Overseeing the planning and development of the
-                  project, including the <span className="text-AAsecondary"> design</span> and implementation of the{" "}
-                  <span className="text-AAsecondary"> </span> and{" "}
-                  <span className="text-AAsecondary"> blockchain technology</span>. Here i share with you{" "}
-                  <span className="text-AAsecondary"> Dinex 4 </span> for sale.
+                  This is an eCommerce website for Amaya Coffee. This project involved overseeing both the <span className="text-AAsecondary">design {" "}</span>
+                  and implementation of a fully responsive online store. The website features an easy-to-navigate interface, secure payment options, and a seamless user experience, all built with the latest{" "}
+                  <span className="text-AAsecondary">web technologies</span>. Here I share with you the completed {" "}
+                  <span className="text-AAsecondary">Amaya Coffee</span> online store, now live and ready for use.
                 </p>
               </div>
+
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                 text-sm font-Text2 md:justify-end"
               >
+                <span className="pr-4 z-10"> HTML </span>
+                <span className="pr-4 z-10"> CSS </span>
                 <span className="pr-4 z-10"> Boostrap </span>
                 <span className="pr-4 z-10"> JavaScript </span>
                 {/* <span className="pr-4 z-10"> </span> */}
-                <span className="pr-4 z-10"> APS.Net Framework</span>
-                <span className="pr-4 z-10"> MS Sql</span>
+                <span className="pr-4 z-10"> Laravel </span>
+                <span className="pr-4 z-10"> MySQL </span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
                 <div className="z-10 flex fle-row space-x-5 ">

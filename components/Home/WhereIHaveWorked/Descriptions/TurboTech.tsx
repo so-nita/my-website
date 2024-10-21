@@ -4,14 +4,43 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function TurboTech () {
     const tasks = [
         {
-            text: "Implemented website design and enhanced interactivity.",
-            keywords: ["HTML", "CSS", "Boostrap", "ASP.Net Framework", "C#", "SQL Server"],
+            text: "Designed and developed RESTful APIs to facilitate communication between the frontend and backend services.",
+            keywords: ["C#", "ASP.Net Core", "REST API", "JSON", "API Design"],
         },
         {
-            text: "Implemented website design and enhanced interactivity.",
-            keywords: ["website design"],
+            text: "Implemented authentication and authorization for APIs using JWT (JSON Web Tokens) to secure user data.",
+            keywords: ["C#", "ASP.Net Core", "JWT", "Security", "API Development"],
+        },
+        {
+            text: "Developed Windows applications utilizing C# and WPF (Windows Presentation Foundation) to create user-friendly interfaces.",
+            keywords: ["C#", "WPF", "Windows Applications", "UI Development", "Desktop Apps"],
+        },
+        {
+            text: "Collaborated with frontend developers to integrate APIs and ensure seamless data exchange.",
+            keywords: ["Team Collaboration", "API Integration", "Frontend Development", "Communication"],
+        },
+        {
+            text: "Conducted performance testing and optimization of APIs to improve response times and scalability.",
+            keywords: ["Performance Testing", "Optimization", "Load Testing", "C#", "API Performance"],
+        },
+        {
+            text: "Utilized SQL Server for database management, ensuring data integrity and implementing stored procedures.",
+            keywords: ["SQL Server", "Database Management", "Stored Procedures", "Data Integrity"],
+        },
+        {
+            text: "Maintained and updated existing Windows applications, fixing bugs and enhancing functionality based on user feedback.",
+            keywords: ["C#", "Bug Fixing", "Maintenance", "User Feedback", "Continuous Improvement"],
+        },
+        {
+            text: "Documented API specifications and application features.",
+            keywords: ["Documentation", "API Specifications", "Technical Writing", "Team Onboarding"],
+        },
+        {
+            text: "Participated in code reviews and contributed to best practices for API development and Windows applications.",
+            keywords: ["Code Review", "Best Practices", "Team Collaboration", "C#", "ASP.Net Core"],
         },
     ];
+    
 
     return (
         <>
