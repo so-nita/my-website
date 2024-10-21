@@ -1,6 +1,10 @@
-import React from "react";
-import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
+// import React from "react";
+// import { motion } from "../../../node_modules/framer-motion/dist/framer-motion";
 // import Img from "../../Icons/Img";
+import React from "react";
+import { motion } from "framer-motion"; // You can import directly from 'framer-motion'
+import Img from "../../Icons/Img"; // Make sure this is the correct path for your Img component
+
 
 export default function Logo(props: { finishedLoading: boolean }) {
   return (
@@ -13,7 +17,8 @@ export default function Logo(props: { finishedLoading: boolean }) {
           y: { delay: props.finishedLoading ? 0 : 8, duration: 0 },
           opacity: { delay: props.finishedLoading ? 0 : 8, duration: 0 },
         }}
-        className=" relative h-12 w-10 "
+        //className=" relative h-12 w-10 "
+        className=" relative h-12 w-32"
       >
         {/* <motion.span
           initial={{ x: 1 }}
@@ -28,8 +33,8 @@ export default function Logo(props: { finishedLoading: boolean }) {
         <motion.div animate={{ rotate: -30, y: 27, x: 19 }} className="h-1 w-6 rounded bg-AAsecondary"></motion.div>
         <motion.div animate={{ rotate: 30, x: 19, y: -10 }} className="h-1 w-6 rounded bg-AAsecondary"></motion.div>
         <motion.div animate={{ rotate: 90, x: 28, y: 2 }} className="h-1 w-6 rounded bg-AAsecondary"></motion.div> */}
-        {/* <Img src="../../logo-sonita" alt="logo" className="h-12 w-10" /> */}
-        <img src="https://www.canva.com/design/DAGT_Eh8ChA/VvbxYWLOlj73owZ1SjbcjQ/view?utm_content=DAGT_Eh8ChA&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel" alt="logo" className="h-12 w-10" />
+        <Img src="/favicon.png" alt="logo" className="object-cover" />
+        {/* <Img src="https://www.canva.com/design/DAGT_Eh8ChA/VvbxYWLOlj73owZ1SjbcjQ/view?utm_content=DAGT_Eh8ChA&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel" alt="logo" className="h-12 w-10" /> */}
       </motion.div>
     </>
   );
