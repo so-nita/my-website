@@ -73,19 +73,41 @@ export default function ProjectIveBuilt() {
                   </span>
                 </a>
               </div>
-              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
-                <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">
-                  At <span className="text-AAsecondary">Vision</span>, I played a crucial role in developing web aplication
-                  for support company <span className="text-AAsecondary">Park Cafe </span> 
-                  For operate their sale operations <span className="text-AAsecondary"> </span>{" "}
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6 z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-left">
+                  At <span className="text-AAsecondary">Vision</span>, I played a crucial role in developing a web application to support <span className="text-AAsecondary">Park Cafe</span>&apos;s operations. 
+                  This system was designed to provide detailed sales and item reporting, with data coming directly from the Point of Sale (POS) system. 
+                  It helped streamline their sales operations by generating reports on sales performance and tracking inventory movement efficiently.
                 </p>
               </div>
+
+              {/* <div className="flex flex-col space-y-1 z-10">
+                <span className="text-AAsecondary text-base">ATech-it.com</span>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                  <span className="md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
+                    Dinex Park
+                  </span>
+                </a>
+              </div>
+              <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6 z-10">
+                <p className="text-gray-300 md:text-gray-400 text-left md:text-left">
+                  At <span className="text-AAsecondary">ATech Group Co., Ltd.</span>, I contributed to the development of web applications to support <span className="text-AAsecondary">Park Cafe</span>&apos;s sales operations. My key responsibilities included:
+                  <ul className="list-disc ml-6 mt-2">
+                    <li>Developed backend APIs using <span className="text-AAsecondary">C#</span> in the <span className="text-AAsecondary">.NET Framework</span> for robust application functionality.</li>
+                    <li>Improved user experience by identifying and resolving bugs, enhancing overall system performance and stability.</li>
+                    <li>Collaborated with cross-functional teams to troubleshoot issues and optimize the integration of business operations with the application.</li>
+                    <li>Worked on the successful delivery of the <span className="text-AAsecondary">Dinex4.0</span> and <span className="text-AAsecondary">ParkCafe</span> projects.</li>
+                  </ul>
+                </p>
+              </div> */}
+
               <ul
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2 md:justify-start"
               >
                 <span className="pr-4 z-10"> Boostrap </span>
                 <span className="pr-4 z-10"> JavaScript </span>
-                <span className="pr-4 z-10"> APS.Net Framework</span>
+                <span className="pr-4 z-10"> ASP.NET MVC</span>
+                <span className="pr-4 z-10"> .NET Framework</span>
                 <span className="pr-4 z-10"> MS Sql</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
