@@ -44,6 +44,7 @@ export default function Home() {
     title: "Web Developer",
     description: `I've been working on Software development for 2 years.`,
     type: "Personal Portfolio",
+    image: "/sonita.png",
   };
 
   const isProd = process.env.NODE_ENV === "production";
@@ -55,7 +56,9 @@ export default function Home() {
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Manu Arora" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        {/* <meta property="og:site_name" content="Manu Arora" /> */}
+        {/* <meta property="og:image" content={meta.image} /> */}
       </Head>
 
       <div className="relative snap-mandatory min-h-screen bg-AAprimary w-full">
