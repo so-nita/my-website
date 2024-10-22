@@ -66,7 +66,7 @@ export default function SoftSkill() {
                     </div>
                 </div> */}
 
-                {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 w-full">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 w-full">
                     <div className="bg-white sm:row-span-2"> 
                         <Img className="h-auto max-w-full object-fill" src="https://img-b.udemycdn.com/course/240x135/707876_9e82_4.jpg" alt=""/> 
                     </div>
@@ -76,7 +76,7 @@ export default function SoftSkill() {
                     <div className="bg-white"> 
                         <Img className="h-auto max-w-full object-contain" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQthS4lBMkHvLFtpVqp4cljnbTnaGYZrSjImQ&s" alt=""/> 
                     </div>
-                </div> */}
+                </div>
             </div>
             <div/>
         </>
